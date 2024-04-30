@@ -1,0 +1,17 @@
+.modal-dialog-user-up {
+  background-color: $formColorBgLight;
+  width: 22rem;
+  margin: 5rem auto;
+  .modal-header-user-up {
+    justify-content: center;
+    margin: 1rem 1rem 0.5rem 1rem;
+  }
+  .form-group-user-up {
+    width: 70%;
+    margin: auto;
+  }
+  .modal-footer-user-up {
+    justify-content: space-around;
+    margin: 1rem;
+  }
+}

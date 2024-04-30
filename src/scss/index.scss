@@ -1,0 +1,28 @@
+//ATTENTION AU IMPORT
+//Les mettre danss le bon ordre
+
+//Import de Boostrap
+@import "~bootstrap/scss/bootstrap";
+
+
+//General => reset, variable, body, mixins...
+@import "./general/reset";
+@import "./general/variables";
+@import "./general/police";
+@import "./general/body";
+@import "./general/mixins";
+@import "./general/icon";
+
+//Components => Bout de code comme header, footer, modal, form...
+@import "./components/header";
+@import "./components/footer";
+@import "./components/modal";
+@import "components/modal_pseudo_up";
+@import "components/modal_user_up";
+
+//Layout => différente page
+@import "./layout/_home.scss";
+@import "./layout/formSignIn";
+@import "./layout/formLogIn";
+@import "./layout/_user.scss";
+@import "./layout/formForgotpwd";

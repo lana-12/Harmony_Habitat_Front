@@ -1,0 +1,93 @@
+main {
+  .button-back-home {
+    border: none;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .portrait-section {
+    margin: 0;
+
+    .photo-container {
+      position: relative;
+
+      .photo-estelle {
+        width: 7rem;
+      }
+
+      .button-update-photo {
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(100%, 0%);
+
+        .icon-photo {
+          font-size: 110%;
+        }
+      }
+    }
+
+    .update-pseudo {
+      width: 60%;
+      height: 2rem;
+      margin-top: -0.5rem;
+      .input-pseudo {
+        background-color: #e6ecd4;
+        color: black;
+        font-weight: bold;
+        border: none;
+        width: 100%;
+        text-align: center;
+      }
+      .button-update-pseudo {
+        border: none;
+      }
+    }
+  }
+
+  .section-form-user {
+    background-color: #a8a6a7;
+    padding: 2rem 2rem 3.5rem 3.5rem;
+    border-radius: 30px;
+    justify-content: space-between;
+    box-shadow: 10px 10px 5px #4b4141;
+    label {
+      color: black;
+      font-weight: bold;
+    }
+    .button-form-user {
+      border: none;
+    }
+  }
+
+  h4 {
+    color: black;
+    font-weight: bold;
+  }
+
+  .favorites-section {
+    position: relative;
+    background-color: #a8a6a7;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+    .delete-favorites {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: none;
+      background-color: #a8a6a7;
+    }
+    i {
+      color: #f11000;
+      margin-right: 0.25rem;
+    }
+  }
+}

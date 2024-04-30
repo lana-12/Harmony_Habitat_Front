@@ -1,0 +1,26 @@
+.app-header {
+  background-color: $green;
+  // height: 10vh;
+
+  nav {
+    .navbar-toggler {
+      border: none;
+    }
+    .navbar-brand {
+      color: $white;
+      font-size: 1.2em;
+      margin-left: 10px;
+    }
+    .slogan {
+      font-size: 1.2em;
+    }
+    .nav-item {
+      .link-header {
+        color: $white;
+        margin-right: 50px;
+        text-decoration: none;
+        border: 1px sollid black;
+      }
+    }
+  }
+}

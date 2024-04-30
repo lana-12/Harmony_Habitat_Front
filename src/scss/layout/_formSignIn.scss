@@ -1,0 +1,35 @@
+
+.formSignIn {
+    background-color: $formColorBg;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #4b4141;
+}
+
+    
+
+.btnRegister {
+    background-color: $btnRegister ;
+    color: $white;
+    // border: 1px solid $btnRegister ;
+}
+.btnRegister:hover {
+    background-color: $green; 
+    color: white;
+
+}    
+
+.logoformsignin{
+    margin-top: 20px;
+    max-width: 100px;
+    
+
+}

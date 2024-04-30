@@ -1,0 +1,21 @@
+.modal-dialog-pseudo-up {
+  background-color: $formColorBgLight;
+  width: 22rem;
+  margin: 20rem auto;
+  .modal-header-pseudo-up {
+    justify-content: center;
+    h5 {
+      margin: 0.5rem auto;
+    }
+  }
+  .form-group-pseudo-up {
+    width: 70%;
+    margin: auto;
+  }
+  .modal-footer-pseudo-up {
+    justify-content: space-around;
+    button {
+      margin: 0.5rem;
+    }
+  }
+}

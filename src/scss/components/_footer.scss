@@ -1,0 +1,101 @@
+.app-footer {
+
+    background-color: $green;
+    .contactFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $dark;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        address {
+            margin-top: 10px;
+            .linkContactHeader {
+                color: $dark;
+                text-decoration: none;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    .mentionCopyrightFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .mention {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            .linkMentionHeader {
+                color: $dark;
+                text-decoration: none;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+        .copyrightFooter {
+            width: 100%;
+            padding-top: 20px;
+            background-color: $dark;
+            color: $white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .logoHeader {
+                width: 150px;
+            }
+            .textCopyrightHeader {
+                font-size: 0.6em;
+                margin-top: 10px;
+            }
+        }
+    }
+
+}
+
+
+/********MEDIA QUERY POUR ECRAN 768px***********/
+/******min-width 768px**************/
+@include media-breakpoint("md") {
+    .app-footer{
+        .mentionCopyrightFooter {
+            display: flex;
+            flex-direction: row-reverse;
+            display: flex;
+            background-color: $dark;
+            width: 100%;
+            .mentionFooter{
+                // border: blue solid 1px;
+                color: $white;
+                .mention {
+                    .linkMentionHeader {
+                        color: $white;
+                        text-decoration: none;
+                        &:hover {
+                            color: $green;
+                        }
+                    }
+                }
+            }
+            .copyrightFooter {
+                align-items: flex-start;
+                .logoHeader{
+                    margin-left: 30px;
+                }
+                .textCopyrightHeader {
+                    margin-left: 55px;
+                }
+            }
+        }
+    }
+
+}
